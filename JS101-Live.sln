@@ -25,6 +25,28 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "P01_JS-Temel", "P01_JS-Teme
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "P02_JS-Samples", "P02_JS-Samples\", "{7A6C84E4-F6A9-4B2A-8437-F91AB95B014C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61046"
+		Debug.AspNetCompiler.PhysicalPath = "P02_JS-Samples\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61046\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61046"
+		Release.AspNetCompiler.PhysicalPath = "P02_JS-Samples\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61046\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61046"
+		SlnRelativePath = "P02_JS-Samples\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +54,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{40502E71-F31E-4BE0-BAE4-96C44799031C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{40502E71-F31E-4BE0-BAE4-96C44799031C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6C84E4-F6A9-4B2A-8437-F91AB95B014C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6C84E4-F6A9-4B2A-8437-F91AB95B014C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
