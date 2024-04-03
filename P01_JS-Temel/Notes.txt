@@ -1,1 +1,28 @@
-﻿
+﻿* Javascript Nedir?
+
+Javadan farklıdır. Tek basına calışamaz. İhtiyacı olan bir browser ortamıdır.
+
+Bizim HTML sayfaları üzerinde programlama yapabilmemiz için oluşturulmuştur. Geniştir. Dünyada bu konuda kullanılan en üstteki sıralamada yer alır.
+
+- Nereye yazılır.
+ . <script></script> etiketleri arasına, <body></body> veya <head></head> tagları arasına yazılabilir
+
+ . Tamamen ayrı bir dosyada da yazılabilir.
+
+ . Yazım kuralları
+	- her satır ; karakteri ile biter
+	- süslü parantez/blok yapısı burada da var.
+	- C# gibi büyük/küçük harf duyarlıdır.
+	- değişgen tanımlamaarı C# diline benzerlik gösterir.
+
+	.Operatorler;
+	Aritmetik : +-*/%
+	Arttırma/azaltma x++,++x,x--,--x
+	İlişkisel == != > >= < <=
+	Mantıksal && ||
+	Atama = += -= *= /= ..
+
+	.Operatörlerde öncelik sırası
+	() x++,x--,++x,*/%,+- ....
+
+ 
