@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>.: Sample12 .:</title>
+</head>
+<body>
+    <!--/ ekrandan alınan sayının sadece pozitif bir durumda olmasına göre karesinin alınması-->
+    <script>
+        var sayi, sonuc;
+
+        sayi = Number(prompt("Sayınızı giriniz : "));
+
+        if (sayi < 0) {
+            alert("Girmiş olduğunuz sayı negatif. Lütfen ekranı tazeleyerek sayınızı tekrardan giriniz...");
+        }
+        else {
+            sonuc = sayi * sayi;
+            alert("Sayınızın karesi = " + sonuc);
+        }
+    </script>
+
+</body>
+</html>
